@@ -35,7 +35,8 @@ const ProductSearch = ({ onSearch }: ProductSearchProps) => {
           type="button"
           variant="ghost"
           size="icon"
-          className="absolute right-10 top-0 h-full"
+          className="absolute top-0 h-full"
+          style={{ right: '110px' }}
           onClick={handleClear}
         >
           <X className="h-4 w-4" />
