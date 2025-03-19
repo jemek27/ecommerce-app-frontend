@@ -1,7 +1,7 @@
 
 import { Product } from "@/types/Product";
 
-const API_URL = "http://localhost:8080/products";
+const API_URL = "http://localhost:8081/products";
 
 export const ProductService = {
   getAllProducts: async (): Promise<Product[]> => {
